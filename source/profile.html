@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <title></title>
+</head>
+
+<body class="page__body">
+    <header class="page-header">
+      <div class="container">
+        <div class="page-header__logo-box logo-box">
+          <img src="img/Logo_image.png" alt="Логотип - Бот РКСИ">
+          <p class="logo-box__title">Бот РКСИ</p>
+          <button class="main-nav__toggle main-nav__toggle--close">
+            <span class="visually-hidden">Открыть меню</span>
+          </button>
+        </div>
+        <nav class="main-nav main-nav--closed">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="index.html">Главная</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="events.html">Мероприятия</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="news.html">Новости</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link main-nav__link--active" href="profile.html">Личный кабинет</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="page-main page-main--profile">
+            <nav class="page-main__profile-navigation profile-navigation">
+                <div class="container">
+                    <ul class="profile-navigation__list">
+                        <li class="profile-navigation__item">
+                            <a class="profile-navigation__link" href="#">Профиль</a>
+                        </li>
+                        <li class="profile-navigation__item">
+                            <a class="profile-navigation__link" href="#">Лавка</a>
+                        </li>
+                        <li class="profile-navigation__item">
+                            <a class="profile-navigation__link" href="#">Поддержка</a>
+                        </li>
+                    </ul>
+                </div>
+              </nav>
+        
+        <section class="page-main__user-block user-block">
+            <div class="container">
+                <div class="user-block__user-avatar">
+                    <picture>
+                        <source media="(min-width: 700px)" srcset="img/avatar--big.svg">
+                        <img src="img/avatar.svg" alt="Аватар Пользователя">
+                    </picture>
+                    
+                </div>
+                <div class="user-block__information">
+                    <div class="user-block__user-name-box">
+                        <p class="user-name">Михаил Профацкий</p>
+                    </div>
+                    <div class="user-block__user-data">
+                        <ul class="user-data__list">
+                            <li class="user-data__item">
+                                Группа: <span class="user-change-data">ПОКС-32b</span>
+                            </li>
+                            <li class="user-data__item">
+                                Баланс: <span class="user-change-data">13 монеток</span>
+                            </li>
+                            <li class="user-data__item">
+                                VIP-статус: <span class="user-change-data">нет</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="user-block__personal-information">
+                        <p>Личная информация</p>
+                        <ul class="personal-information__list">
+                            <li class="personal-information__item--user-phone">+7 908 228 13 37,</li>
+                            <li class="personal-information__item--user-email">admin@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>  
+                
+            </div>
+        </section>
+        <section class="visited-events">
+            <div class="container">
+                <h2 class="visited-events__title">Посещенные мероприятия</h2>
+                <!-- <div class="no-evetns">
+                    <p>Вы не посетили</br>
+                    ни одного мероприятия :(</p>
+                </div> -->
+<!-- -----------------------------------ДВА РАЗНЫХ ОБЪЕКТА---------------------->
+                <div class="visited-event">
+                    <div class="visited-event__text-block">
+                      <b class="bold-blue bold-blue--profile">Название</b>
+                      <p class="visited-event__text event-name">
+                        Региональный чемпионат по игре "Что? Где? Когда?"
+                      </p>
+                    </div>
+                    <div class="visited-event__text-block">
+                        <b class="bold-blue bold-blue--profile">Описание</b>
+                        <p class="visited-event__text event-description">
+                          Приглашаем принять участие в Региональном чемпионате по интеллектуальной игре «Что? Где? Когда?» ...
+                        </p>
+                      </div>
+                    <div class="visited-event__text-block">
+                      <b class="bold-blue bold-blue--profile">Награда</b>
+                      <p class="visited-event__text event-reward">
+                        4 монетки
+                      </p>
+                    </div>  
+                  </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="page-footer__logo-box logo-box">
+          <img src="img/Logo_image.png" alt="Логотип - Бот РКСИ">
+          <p class="logo-box__title">Бот РКСИ</p>
+          <a class="vk-icon-link" href="https://vk.com/botrksi">
+            <picture>
+                <source media="(min-width: 700px)" srcset="img/vk-logo--big.svg">
+                <img class="vk-icon" src="img/vk-logo.svg" alt="Логотип Вконтакте">
+            </picture>
+        </a>
+        </div>
+        <div class="copyright">
+          Сайт и Бот был создан при поддержке Ростовского Государственного Колледжа Связи и Информатики. Совместно с
+          отделом
+          Профсоюзного комитета.
+          Все права защищены 2022 г.
+        </div>
+      </div>
+    </footer>
+
+  <script src="js/burger-menu.js"></script>
+</body>
+
+</html>

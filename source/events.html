@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <title></title>
+</head>
+
+<body class="page__body">
+    <header class="page-header">
+        <div class="container">
+            <div class="page-header__logo-box logo-box">
+                <img src="img/Logo_image.png" alt="Логотип - Бот РКСИ">
+                <p class="logo-box__title">Бот РКСИ</p>
+                <button class="main-nav__toggle main-nav__toggle--close">
+                    <span class="visually-hidden">Открыть меню</span>
+                </button>
+            </div>
+            <nav class="main-nav main-nav--closed">
+                <ul class="main-nav__list">
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="index.html">Главная</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link main-nav__link--active" href="events.html">Мероприятия</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="news.html">Новости</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="profile.html">Личный кабинет</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="page-main">
+
+        <!-- <section class="page-main__events">
+            <div class="container">
+                <div class="active-events events">
+                    <h1 class="section-title--blue-underline">Текущие мероприятия</h1>
+                    <div class="active-events__grid events__grid"> -->
+        <!-- --------------------------Кнопка Админа!!!-------------------------- -->
+        <!-- <button class="add-slide-button--admin slaid">
+                            Добавить новое</br>
+                            мероприятие
+                            <svg width="65" height="64" viewBox="0 0 65 64" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="65" y="30" width="4" height="65" transform="rotate(90 65 30)" fill="#5F5F5F"
+                                    fill-opacity="0.35" />
+                                <rect x="31" width="4" height="30" fill="#5F5F5F" fill-opacity="0.35" />
+                                <rect x="31" y="34" width="4" height="30" fill="#5F5F5F" fill-opacity="0.35" />
+                            </svg>
+                        </button>
+                        <div class="slaid event">
+                            <div class="slaid__text-block">
+                                <b class="bold-blue event-name">Название</b>
+                                <p class="slaid__text event-name">
+                                    Региональный чемпионат по игре "Что? Где? Когда?"
+                                </p>
+                            </div>
+                            <div class="slaid__text-block">
+                                <b class="bold-blue">Награда</b>
+                                <p class="slaid__text event-reward">
+                                    4 монетки
+                                </p>
+                            </div>
+                            <div class="slaid__text-block">
+                                <b class="bold-blue">Описание</b>
+                                <p class="slaid__text event-description">
+                                    Приглашаем принять участие в Региональном чемпионате по интеллектуальной игре «Что?
+                                    Где? Когда?» ...
+                                </p>
+                            </div>
+                            <a class="button slaid__button" href="">Подробнее</a>
+                        </div>
+                        <div class="slaid event">
+                            <div class="slaid__text-block">
+                                <b class="bold-blue event-name">Название</b>
+                                <p class="slaid__text event-name">
+                                    Региональный чемпионат по игре "Что? Где? Когда?"
+                                </p>
+                            </div>
+                            <div class="slaid__text-block">
+                                <b class="bold-blue">Награда</b>
+                                <p class="slaid__text event-reward">
+                                    4 монетки
+                                </p>
+                            </div>
+                            <div class="slaid__text-block">
+                                <b class="bold-blue">Описание</b>
+                                <p class="slaid__text event-description">
+                                    Приглашаем принять участие в Региональном чемпионате по интеллектуальной игре «Что?
+                                    Где? Когда?» ...
+                                </p>
+                            </div>
+                            <a class="button slaid__button" href="">Подробнее</a>
+                        </div>
+                        <div class="slaid event">
+                            <div class="slaid__text-block">
+                                <b class="bold-blue event-name">Название</b>
+                                <p class="slaid__text event-name">
+                                    Региональный чемпионат по игре "Что? Где? Когда?"
+                                </p>
+                            </div>
+                            <div class="slaid__text-block">
+                                <b class="bold-blue">Награда</b>
+                                <p class="slaid__text event-reward">
+                                    4 монетки
+                                </p>
+                            </div>
+                            <div class="slaid__text-block">
+                                <b class="bold-blue">Описание</b>
+                                <p class="slaid__text event-description">
+                                    Приглашаем принять участие в Региональном чемпионате по интеллектуальной игре «Что?
+                                    Где? Когда?» ...
+                                </p>
+                            </div>
+                            <a class="button slaid__button" href="">Подробнее</a>
+                        </div>
+                        <a class="last-events-section__link section-link active-event__link event-link"
+                            href="#">Посмотреть ещё
+                            <svg width="8" height="13" viewBox="0 0 8 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L6 6.5L1 12" stroke="#3565AD" stroke-width="2" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="past-events events">
+                    <h1 class="section-title--blue-underline">Прошедшие мероприятия</h1>
+                    <div class="past-events__grid events__grid">
+                        <div class="slaid event">
+                            <div class="slaid__text-block">
+                                <b class="bold-blue event-name">Название</b>
+                                <p class="slaid__text event-name">
+                                    Региональный чемпионат по игре "Что? Где? Когда?"
+                                </p>
+                            </div>
+                            <div class="slaid__text-block">
+                                <b class="bold-blue">Награда</b>
+                                <p class="slaid__text event-reward">
+                                    4 монетки
+                                </p>
+                            </div>
+                            <div class="slaid__text-block">
+                                <b class="bold-blue">Описание</b>
+                                <p class="slaid__text event-description">
+                                    Приглашаем принять участие в Региональном чемпионате по интеллектуальной игре «Что?
+                                    Где? Когда?» ...
+                                </p>
+                            </div>
+                            <a class="button slaid__button" href="">Подробнее</a>
+                        </div>
+                        <div class="slaid event">
+                            <div class="slaid__text-block">
+                                <b class="bold-blue event-name">Название</b>
+                                <p class="slaid__text event-name">
+                                    Региональный чемпионат по игре "Что? Где? Когда?"
+                                </p>
+                            </div>
+                            <div class="slaid__text-block">
+                                <b class="bold-blue">Награда</b>
+                                <p class="slaid__text event-reward">
+                                    4 монетки
+                                </p>
+                            </div>
+                            <div class="slaid__text-block">
+                                <b class="bold-blue">Описание</b>
+                                <p class="slaid__text event-description">
+                                    Приглашаем принять участие в Региональном чемпионате по интеллектуальной игре «Что?
+                                    Где? Когда?» ...
+                                </p>
+                            </div>
+                            <a class="button slaid__button" href="">Подробнее</a>
+                        </div>
+                        <div class="slaid event">
+                            <div class="slaid__text-block">
+                                <b class="bold-blue event-name">Название</b>
+                                <p class="slaid__text event-name">
+                                    Региональный чемпионат по игре "Что? Где? Когда?"
+                                </p>
+                            </div>
+                            <div class="slaid__text-block">
+                                <b class="bold-blue">Награда</b>
+                                <p class="slaid__text event-reward">
+                                    4 монетки
+                                </p>
+                            </div>
+                            <div class="slaid__text-block">
+                                <b class="bold-blue">Описание</b>
+                                <p class="slaid__text event-description">
+                                    Приглашаем принять участие в Региональном чемпионате по интеллектуальной игре «Что?
+                                    Где? Когда?» ...
+                                </p>
+                            </div>
+                            <a class="button slaid__button" href="">Подробнее</a>
+                        </div>
+                        <div class="slaid event">
+                            <div class="slaid__text-block">
+                                <b class="bold-blue event-name">Название</b>
+                                <p class="slaid__text event-name">
+                                    Региональный чемпионат по игре "Что? Где? Когда?"
+                                </p>
+                            </div>
+                            <div class="slaid__text-block">
+                                <b class="bold-blue">Награда</b>
+                                <p class="slaid__text event-reward">
+                                    4 монетки
+                                </p>
+                            </div>
+                            <div class="slaid__text-block">
+                                <b class="bold-blue">Описание</b>
+                                <p class="slaid__text event-description">
+                                    Приглашаем принять участие в Региональном чемпионате по интеллектуальной игре «Что?
+                                    Где? Когда?» ...
+                                </p>
+                            </div>
+                            <a class="button slaid__button" href="">Подробнее</a>
+                        </div>
+                        <div class="slaid event">
+                            <div class="slaid__text-block">
+                                <b class="bold-blue event-name">Название</b>
+                                <p class="slaid__text event-name">
+                                    Региональный чемпионат по игре "Что? Где? Когда?"
+                                </p>
+                            </div>
+                            <div class="slaid__text-block">
+                                <b class="bold-blue">Награда</b>
+                                <p class="slaid__text event-reward">
+                                    4 монетки
+                                </p>
+                            </div>
+                            <div class="slaid__text-block">
+                                <b class="bold-blue">Описание</b>
+                                <p class="slaid__text event-description">
+                                    Приглашаем принять участие в Региональном чемпионате по интеллектуальной игре «Что?
+                                    Где? Когда?» ...
+                                </p>
+                            </div>
+                            <a class="button slaid__button" href="">Подробнее</a>
+                        </div>
+                        <div class="slaid event">
+                            <div class="slaid__text-block">
+                                <b class="bold-blue event-name">Название</b>
+                                <p class="slaid__text event-name">
+                                    Региональный чемпионат по игре "Что? Где? Когда?"
+                                </p>
+                            </div>
+                            <div class="slaid__text-block">
+                                <b class="bold-blue">Награда</b>
+                                <p class="slaid__text event-reward">
+                                    4 монетки
+                                </p>
+                            </div>
+                            <div class="slaid__text-block">
+                                <b class="bold-blue">Описание</b>
+                                <p class="slaid__text event-description">
+                                    Приглашаем принять участие в Региональном чемпионате по интеллектуальной игре «Что?
+                                    Где? Когда?» ...
+                                </p>
+                            </div>
+                            <a class="button slaid__button" href="">Подробнее</a>
+                        </div>
+                        <a class="last-events-section__link section-link past-events__link event-link"
+                            href="#">Посмотреть ещё
+                            <svg width="8" height="13" viewBox="0 0 8 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L6 6.5L1 12" stroke="#3565AD" stroke-width="2" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section class="opened-event-section">
+            <div class="container">
+                <a class="opened-event-section__link-back" href="#"><svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.521 10.9375L1.521 6.05504L6.521 1.17257" stroke="#5F5F5F" stroke-width="2"/>
+                    </svg>
+                    Вернуться назад</a>
+                    <div class="event opened-event">
+                        <div class="slaid__text-block">
+                            <b class="bold-blue event-name">Название</b>
+                            <p class="slaid__text event-name">
+                                Региональный чемпионат по игре "Что? Где? Когда?"
+                            </p>
+                        </div>
+                        <div class="slaid__text-block">
+                            <b class="bold-blue">Награда</b>
+                            <p class="slaid__text event-reward">
+                                4 монетки
+                            </p>
+                        </div>
+                        <div class="slaid__text-block">
+                            <b class="bold-blue">Описание</b>
+                            <p class="slaid__text event-description">
+                                Приглашаем принять участие в Региональном чемпионате по интеллектуальной игре «Что? Где? Когда?» среди учащихся общеобразовательных организаций и профессиональных образовательных организаций г. Ростова-на-Дону. Мероприятие состоится 14 апреля 2022 года в 15:30 в Ростовском филиале государственного казенного образовательного учреждения высшего образования «Российская таможенная академия». Формируется команда от колледжа, запись через бота и сайт.
+                            </p>
+                        </div>
+                        <a class="button slaid__button" href="">Записаться</a>
+                    </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="page-footer__logo-box logo-box">
+                <img src="img/Logo_image.png" alt="Логотип - Бот РКСИ">
+                <p class="logo-box__title">Бот РКСИ</p>
+                <a class="vk-icon-link" href="https://vk.com/botrksi">
+                    <picture>
+                        <source media="(min-width: 700px)" srcset="img/vk-logo--big.svg">
+                        <img class="vk-icon" src="img/vk-logo.svg" alt="Логотип Вконтакте">
+                    </picture>
+                </a>
+            </div>
+            <div class="copyright">
+                Сайт и Бот был создан при поддержке Ростовского Государственного Колледжа Связи и Информатики. Совместно
+                с
+                отделом
+                Профсоюзного комитета.
+                Все права защищены 2022 г.
+            </div>
+        </div>
+    </footer>
+    <!-- --------------------------Модалка Админа!!!-------------------------- -->
+    <div class="blur-background"></div>
+    <div class="modal-box">
+        <div class="modal-event">
+
+            <h1 class="modal-title">Добавить мероприятие</h1>
+            <form class="modal-form" action="#" method="post">
+                <label class="input-name__label">
+                    Название мероприятия
+                    <input class="input-name" required type="text" placeholder="Введите название">
+                </label>
+                <label class="input-description__label">
+                    Описание мероприятия
+                    <textarea class="input-description" required placeholder="Введите описание"></textarea>
+                </label>
+                <label class="input-reward__label">
+                    Награда за участие
+                    <input class="input-reward" required type="number" min="0" placeholder="0">
+                </label>
+                <div class="block-submit-button">
+                    <button class="modal-button" type=submit>
+                        Добавить
+                    </button>
+                </div>
+            </form>
+            <button class="modal-close" type="button"></button>
+        </div>
+    </div>
+
+    <script src="js/burger-menu.js"></script>
+    <script src="js/modal-event.js"></script>
+</body>
+
+</html>
