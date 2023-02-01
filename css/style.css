@@ -103,6 +103,7 @@ body {
     margin: 0 auto;
     background-color: #F1F3F9;
     min-width: 390px;
+    min-height: 100vh;
 }
 
 .container {
@@ -376,6 +377,7 @@ body {
 
 .page-footer {
     background-color: #fff;
+    position: sticky; top: 100%;
 }
 
 .copyright {
